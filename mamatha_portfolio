@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mamatha Bollinedi Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f7fb;
+      color:#222;
+      line-height:1.6;
+    }
+
+    header{
+      background:#0b1f3a;
+      color:white;
+      padding:40px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:42px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:18px;
+    }
+
+    nav{
+      background:#13294b;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    section{
+      padding:50px 10%;
+    }
+
+    h2{
+      color:#0b1f3a;
+      margin-bottom:20px;
+      border-bottom:3px solid #0b1f3a;
+      display:inline-block;
+      padding-bottom:5px;
+    }
+
+    .card{
+      background:white;
+      padding:25px;
+      margin-top:20px;
+      border-radius:10px;
+      box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    ul{
+      margin-left:20px;
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:15px;
+    }
+
+    .skill-box{
+      background:#0b1f3a;
+      color:white;
+      padding:15px;
+      border-radius:8px;
+      text-align:center;
+      font-weight:bold;
+    }
+
+    .resume-btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 25px;
+      background:#0b1f3a;
+      color:white;
+      text-decoration:none;
+      border-radius:6px;
+      font-weight:bold;
+    }
+
+    footer{
+      background:#0b1f3a;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Mamatha Bollinedi</h1>
+    <p>Electrical & Electronics Engineer | Research Assistant | Solar Cell Researcher</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+      <p>
+        I am a Master's student at Youngstown State University with strong interests in
+        electronics design, embedded systems, renewable energy systems, solar cell research,
+        PCB design, MATLAB simulations, and electric vehicle technologies.
+      </p>
+
+      <br>
+
+      <p>
+        I have experience working in manufacturing environments and solar cell module packaging,
+        along with academic research in thin-film solar cells and hybrid AC/DC microgrids.
+      </p>
+
+      <a class="resume-btn" href="resume.pdf" download>
+        Download Resume
+      </a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <div class="skill-box">MATLAB</div>
+      <div class="skill-box">Simulink</div>
+      <div class="skill-box">C++</div>
+      <div class="skill-box">Python</div>
+      <div class="skill-box">PCB Design</div>
+      <div class="skill-box">Embedded Systems</div>
+      <div class="skill-box">PLC</div>
+      <div class="skill-box">Power BI</div>
+      <div class="skill-box">Solar Cell Research</div>
+      <div class="skill-box">Microgrid Systems</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Vehicle Number Plate Recognition using MATLAB</h3>
+      <p>
+        Developed an automatic vehicle number plate recognition system using image processing
+        and OCR techniques in MATLAB.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Thin-Film Solar Cell Research</h3>
+      <p>
+        Worked on FTO/CdS-In2S3/Sb2S3/NiOx/Au structured thin-film solar cells
+        for renewable energy applications.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Hybrid AC/DC Microgrid Energy Management</h3>
+      <p>
+        Research focused on optimization algorithms such as PSO and GA
+        for energy management systems.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <ul>
+        <li>Research Assistant at Youngstown State University</li>
+        <li>Technical Engineer in Lights Manufacturing Company</li>
+        <li>Solar Cell Module Packaging Experience</li>
+        <li>Experience in Manufacturing and Embedded Systems</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <div class="card">
+      <p><strong>Email:</strong> mamathabollendi886@gmail.com</p>
+      <p><strong>GitHub:</strong> github.com/mamathabollendi886-star</p>
+      <p><strong>Location:</strong> United States</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Mamatha Bollinedi | Portfolio Website</p>
+  </footer>
+
+</body>
+</html>
